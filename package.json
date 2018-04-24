@@ -1,0 +1,24 @@
+{
+  "name": "cssgridflex",
+  "version": "1.0.0",
+  "description": "Studies with css grid and flexbox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/althi/cssgridflex.git"
+  },
+  "keywords": [
+    "flexbox",
+    "css",
+    "grid"
+  ],
+  "author": "althi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/althi/cssgridflex/issues"
+  },
+  "homepage": "https://github.com/althi/cssgridflex#readme"
+}
