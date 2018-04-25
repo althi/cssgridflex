@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/althi/cssgridflex/issues"
   },
-  "homepage": "https://github.com/althi/cssgridflex#readme"
+  "homepage": "https://github.com/althi/cssgridflex#readme",
+  "devDependencies": {
+    "colors.css": "^3.0.0"
+  }
 }
