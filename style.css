@@ -11,6 +11,10 @@ body{
 	font-family: 'Nanum Gothic', sans-serif;
 }
 
+.container{
+	margin: 0 20%;
+}
+
 
 /* global align */
 
@@ -41,7 +45,11 @@ body{
 .grid {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 50px;
+	grid-row-gap:  50px;
+	text-align: center;
 }
+
 
 .title{
 	grid-column: 1 / 3;
@@ -54,6 +62,72 @@ body{
 
 .grid div:nth-child(odd){
 	background-color: var(--fuchsia);
-	
+	color: white;
 }
+
+
+/* grid 2*/
+
+.grid-2{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 50px;
+	grid-row-gap:  50px;
+	text-align: center;
+}
+
+.grid-2 div:nth-child(even){
+	background-color: var(--green);
+	color: white;
+}
+
+.grid-2 div:nth-child(odd){
+	background-color: var(--olive);
+	color: white;
+}
+
+.footer-2{
+	grid-column-start: 1;
+	grid-column-end: 4;
+}
+
+
+/* grid areas*/
+
+.title-area {
+	background-color: var(--fuchsia);
+	grid-area: header-area;
+}
+
+.header-area {
+	background-color: var(--fuchsia);
+	grid-area: header-area;
+}
+.sidebar-area {
+	background-color: var(--aqua);
+	grid-area: sidebar-area;
+}
+.content-area{
+	background-color: var(--aqua);
+	grid-area: content-area;
+}
+
+.footer-area{
+	background-color: var(--yellow);
+	grid-area: footer-area;
+}
+
+.grid-area{
+	text-align: center;
+	display: grid;
+	grid-template-rows: auto;
+	grid-gap: 50px;
+	grid-template-columns: 20% 20% 20% 20%;
+	grid-template-areas:
+			"header-area header-area header-area header-area header-area"
+			"sidebar-area sidebar-area content-area content-area content-area"
+			"footer-area footer-area footer-area footer-area footer-area";
+}
+
+/* flexbox */
 
